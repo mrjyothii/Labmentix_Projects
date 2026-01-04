@@ -35,5 +35,3 @@ The rise of ride-sharing platforms has transformed urban mobility, offering conv
 --Check why prime sedan performance reduced drastically to 6 th position on Saturday
 **Payments**
 --We can see cash payments are high. Try to increase UPI by giving offers
-
-<img width="2299" height="726" alt="image" src="https://github.com/user-attachments/assets/b93dd98e-a26a-49fe-86ad-ba3a423dd40c" />
