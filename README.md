@@ -8,12 +8,12 @@ The rise of ride-sharing platforms has transformed urban mobility, offering conv
 
 **Insights**
 **Cancellations**:
---Almost 38% rides are lost due to cancellations
---We can see cancellations are high on Monday, Tuesday and Wednesday
---Out of total cancellations we can see
-    --47% Cancelled by driver 
-    --27% cancelled by customer
-    --26%  driver not found 
+--  Almost 38% rides are lost due to cancellations
+--  We can see cancellations are high on Monday, Tuesday and Wednesday
+--  Out of total cancellations we can see
+    --  47% Cancelled by driver 
+    --  27% cancelled by customer
+    --  26%  driver not found 
 --We have vehicle breakdown cases of 1591 but they come under successful bookings
 **Ratings**
 --Customer Ratings are low for bike and ebike
