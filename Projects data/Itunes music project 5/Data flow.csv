@@ -1,0 +1,21 @@
+album,artist,customer,employee,genre,invoice,invoice_line,media_type,playlist,playlist_track,track
+album_id  (PK),name,customer_id (PK),employee_id (PK),genre_id (PK),invoice_id (PK),invoice_id (FK7),media_type_id (PK),playlist_id (PK),playlist_id (FK6),track_id (PK)
+title,artist_id (PK),first_name,first_name,name,customer_id (FK9),invoice_line_id (PK),name,name,track_id (FK5),name
+artist_id (FK1),,last_name,last_name,(25 rows),invoice_date,track_id (FK8),(5 rows),(18 rows),,album_id (FK2)
+,,company,title,,billing address,unit_price,,,,media_type_id (FK4)
+,,address,address,,billing_city,quantity,,,,genre_id (FK3)
+,,city,city,,billing_state,,,,,composer
+,,state,state,,billing_country,,,,,milliseconds
+,,country,country,,billing_postal_code,,,,,bytes
+,,postal_code,postal_code,,total,,,,,unit_price
+,,phone,phone,,,,,,,
+,,fax,fax,,,,,,,(50 rows)
+,,email,email,,,,,,,
+,,support_rep_id (FK10),reports_to,,,,,,,
+,,,levels,,,,,,,
+,,,birthdate,,,,,,,
+,,,hire_date,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+,,artist --> album -->track -->playlist_track -->playlist -- > media_type --> invoice_line -->invoice -->customer --> genre --> ,,,,,,,,
